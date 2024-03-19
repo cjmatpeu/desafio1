@@ -1,0 +1,105 @@
+/*Arquivo de estilização da página*/
+*{
+    margin: 0; /*Zerando as margens*/
+    font-family: 'inter';
+
+}
+
+#topo-pagina{
+    background-color: #303030;
+    height: 400px;
+}
+
+#texto-inicial{
+    padding-top: 160px;
+    padding-left: 62px;
+    color:#ffffff;
+    font-size: 40px;
+}
+
+#texto-secundario{
+    padding-left: 62px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight:normal;
+}
+
+#topo-secundario{
+    background-color: #F9F9F9;
+    padding: 60px 60px 60px 60px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.numeros{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 100px;
+}
+.texto-numeros{
+    margin-left: 100px;
+    text-align: left;
+}
+
+#secao-intermediaria{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: white;
+    
+}
+
+#texto-principal{
+    padding-top: 280px;
+    padding-left: 120px;
+    text-align: justify;
+       
+}
+
+#imagem{
+    padding: 80px 50px 60px 50px;
+    text-align: right;
+}
+
+#formulario{
+    background-color: #303030;
+    height: 500px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#titulo-formulario{
+    padding-top: 100px;
+
+}
+input{
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family:'Raleway';
+    font-weight: bolder;
+}
+
+button{
+    margin-top: 20px;
+    background-color: #C07212;
+    height: 50px;
+    width: 200px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family:'Raleway';
+    font-weight: bolder;
+    cursor: pointer;
+}
